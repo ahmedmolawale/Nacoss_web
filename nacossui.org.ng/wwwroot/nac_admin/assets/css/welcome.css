@@ -1,0 +1,102 @@
+
+::-moz-selection {
+  background-color: #F56F6C;
+  color: #fff;
+  text-shadow: none;
+}
+::selection {
+  background-color: #F56F6C;
+  color: #fff;
+  text-shadow: none;
+}
+
+.welcome-container {
+	width: 100%;
+	height: 490px;
+	background: #195962 url(../images/site_images/sbg.png) 0px 220px;
+	background: #191C21 url(../images/site_images/sbg.png) 0px 220px;
+	color: #fff;
+}
+.welcome-container-wrap {
+	margin: 0 auto 0 auto;
+	width: 1000px;
+}
+.ext-header {
+	width: 100%;
+	margin-top: 20px;
+	overflow: hidden;
+}.logo-wrap {
+	margin: 10px 0;
+}
+.logo {	
+	color: #fff;
+	text-indent: -99999em;
+	display: block;
+	width: 130px; height: 22px;
+	padding: 0;
+	background:url(../images/site_images/logoz.png) no-repeat;
+}
+
+.welcome-info {
+	width: 100%;
+	height: 350px;
+	margin-top: 80px;
+	text-align: center;
+}
+.welcome-info h2 {
+	font-size: 60px; line-height: 1.5;
+	font-family: 'open_sanslight';
+	font-weight: 500;
+}
+.welcome-info h2 span {
+	color: #DADADA;
+}
+.learn-more {
+	margin: 50px auto ;
+	margin-bottom: 0;
+}
+
+.welcome-container-sub {
+	background: #F56F6C;
+}
+.welcome-info-ul {
+	width: 1000px;
+}
+.welcome-info-ul li{
+	display: block;
+	float: left;
+	color: #fff;
+	margin: 25px 22.5px 20px 0px;
+}
+.welcome-info-ul li:last-child {
+	margin-right: 0;
+}
+.welcome-info-ul li:first-child {
+	margin-left: 0;
+}
+.welcome-info-ul li i{
+	font-size:45px;
+	line-height: 2.0;
+	text-align: center;
+	/*text-shadow: 1px 1px rgb(16, 18, 22), 2px 2px rgb(16, 18, 22), 3px 3px rgb(16, 18, 22), 4px 4px rgb(16, 18, 22), 5px 5px rgb(16, 18, 22), 6px 6px rgb(16, 18, 22), 7px 7px rgb(16, 18, 22), 8px 8px rgb(16, 18, 22), 9px 9px rgb(16, 18, 22), 10px 10px rgb(17, 19, 23), 11px 11px rgb(18, 20, 24), 12px 12px rgb(19, 21, 26), 13px 13px rgb(20, 22, 27), 14px 14px rgb(21, 24, 29), 15px 15px rgb(22, 25, 30), 16px 16px rgb(23, 26, 32), 17px 17px rgb(24, 27, 33), 18px 18px rgb(25, 28, 35), 19px 19px rgb(27, 30, 36), 20px 20px rgb(28, 31, 38), 21px 21px rgb(29, 32, 39), 22px 22px rgb(30, 33, 41), 23px 23px rgb(31, 34, 42), 24px 24px rgb(32, 36, 44), 25px 25px rgb(33, 37, 45), 26px 26px rgb(34, 38, 47), 27px 27px rgb(35, 39, 48), 28px 28px rgb(37, 41, 50);
+ 	*/color: #fff;
+ }
+.welcome-info-ul li > label{
+	background-color: #195962;
+	width: 90px; height: 90px;
+	display: block; 
+	overflow: hidden;
+	text-align: center; vertical-align: middle;
+	border-radius: 50%;
+	border: solid 0px #fff;
+	position: relative;
+	z-index: 9999;
+}
+.welcome-info-ul li > span{
+	text-align: center;
+	display: block;
+	text-transform: uppercase;
+	font-size: 18px;
+	color: #FFFFF2;
+	font-family: 'open_sanslight';
+}

@@ -1,0 +1,33 @@
+td{
+    padding: 5px;
+}
+
+.space{
+    margin-top: 20px;
+}
+
+.reach{
+    height: 672px;
+}
+
+
+/* Modification for Payment */
+
+#td{
+        
+}
+
+#td-right{
+    padding-top: 10px;
+    padding-left: 10px; 
+}
+
+
+#table-receipt td{
+    font-size: 16pt; 
+}
+
+#table-receipt{
+    margin-right : 20px;
+    margin-left : 20px;
+}

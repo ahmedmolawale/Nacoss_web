@@ -1,0 +1,37 @@
+.widget-box{
+    outline: 1px double #2c3e50;
+}
+
+.widget-body{
+    padding: 10px;
+}
+.widget-box .widget-header{
+    background-color: #EEE;
+    padding-left: 10px;
+    padding-top: 7px;
+    padding-bottom: 5px;
+    height: 40px;
+    font-weight: bolder;
+}
+
+.info-row .info-name{
+
+}
+
+#list_update, #form_file, #form_password, #form_others{
+    display: none;
+}
+
+.icon-circle-arrow-down:before{content:"\f0ab";}
+
+#submit{
+    padding-top: 5px;
+}
+
+.info-row .info-title{
+    font-weight: bold;
+}
+
+.info-row .info-data{
+    font-style: italic;
+}

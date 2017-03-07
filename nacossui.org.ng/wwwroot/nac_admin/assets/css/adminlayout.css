@@ -1,0 +1,238 @@
+body{
+	color: #333; 
+	background: #E5E5E5;
+	font: normal 1.3em/1.6 'Segoe UI'; 
+	height: 100%; 
+	overflow-x: hidden; overflow-y: scroll;
+	position: relative;
+}
+
+a {
+	color: #005F8C;
+}
+
+.logo {
+	display: block;
+	float: left;
+	text-indent: -99999em;
+	width: 200px;
+	background: ;
+}
+
+.main-content {
+	display: block;
+	overflow: hidden;
+	padding-top: 100px;
+	padding-bottom: 50px;
+	min-height: 594px;
+	background: #fff;
+}
+
+.conta {
+	display: block;
+	width: 780px;
+	float: right;
+}
+
+.ekodevadmin_header1 {
+	background: #008ED2;
+	border-bottom: solid 4px #007BB7;
+	height: 50px;
+	position: fixed;
+	width: 100%; 
+	top: 0; left: 0;
+	z-index: 9999;
+}
+.ekodevadmin_header1::after {
+	content: '';
+	width: 100%;
+	height: 40px;
+	background: #fff;
+	z-index: 9999;
+	top: 50px;
+	position: fixed;
+}
+
+.top-nav {
+	display: inline-block;
+	margin: 8px 0 0 10px;
+	float: left;
+}
+.top-nav a{
+	color: #fff;
+}
+.top-nav > li {
+	display: block;
+	float: left;
+	background:;
+	margin: 0 10px 0 0;
+}
+.top-nav > li a {
+	display: block;
+	padding: 8px 15px;
+	font-size: 15px;
+	line-height: 1;
+}
+.top-nav a:hover {
+	text-decoration: none;
+	background: #009CE8;
+	border-radius: 2px;
+}
+.top-nav li.active a {
+	font-weight: 700;
+	color: #D9F2FF;
+	background: #009CE8;
+}
+
+.user-nav {
+	float: right;
+	margin: 1px 0;
+}
+
+/* LEFT NAV */
+
+.sidebar {
+	background: #F4FAFF;
+	padding: 15px;
+	display: inline-block;
+	overflow: hidden;
+	border-radius: 2px;
+	position: fixed;
+}
+
+.left-nav {
+	width: 170px;
+	display: inline-block;
+	background: #fff;
+	border:solid 1px #C0C0C0;
+	border-radius: 4px;
+	display: block; overflow: hidden;
+	float: left;
+	margin: 0;
+}
+.left-nav > li {
+	border-bottom:solid 1px #C0C0C0;
+	position: relative;
+}
+.left-nav > li:after {
+	content: '';
+}
+.left-nav > li a {
+	padding: 10px;
+	display: block;	
+	font-weight: 700;
+	color: #959595;
+}
+.left-nav > li a:hover {
+	text-decoration: none;
+	background: #F5F5F5;
+}
+.left-nav > li.active a:hover {
+	background: #EBEBEB;
+}
+
+/* FOOTER */
+
+.admin-footer {
+	height: 70px;
+	background: #E5E5E5;
+	border-top: solid 5px #C9C9C9;
+}
+/* END - FOOTER */
+
+.admin-info-box {
+	width: 100%;
+	background: #FBFBFB;
+	display: inline-block;
+	border-radius: 5px;
+	border: solid 0px;
+	overflow: hidden;
+	position: relative;
+	padding-bottom: 10px;
+}
+.admin-info-box .top-pos {
+	height: 100px;
+	background: #F5F5F5;
+	border-bottom: solid 1px #EEEEEE;
+	position: relative;
+}
+.admin-info-box .top-pos .uimg {
+	padding: 5px;
+	border:solid 1px #EEEEEE;
+	display: inline-block;
+	margin: 20px;
+	background: #fff;
+	float: left;
+	border-radius:4px;
+}
+.admin-info-box .top-pos .uname {
+	font-size: 20px;
+	font-weight: 700;
+	padding-top: 55px;
+	display: block;
+	color: #555;
+}
+.admin-info-box .top-pos .edit-profile {
+	position: absolute;
+	right: 10px; bottom: 10px;
+}
+.admin-info-box .login-pos {
+	background: ;
+	width: 100%;
+	overflow: hidden;
+}
+
+.login-stat {
+	background: red;
+	margin-left: 20px;
+}
+.login-stat li {
+	display: block;
+	float: left;
+	color: #555;
+}
+.login-stat li span {
+	color: #777;
+}
+
+.title {
+	font-size: 20px;
+	line-height: 1;
+	font-weight: 700;
+	color: #3B3B3B;
+}
+
+.properties-cont {
+
+}
+
+.properties-ul {
+}
+	
+.properties-ul-li {
+	display: block;
+	float: left;
+}
+.properties-ul.grid > li {
+	border-bottom: solid 1px #E2E2E2;
+	margin: 0 32px 20px 0;
+	width: 170px;
+	background: #EFEFEF;
+}
+.properties-ul.grid > li:nth-child(4n+4) {
+	margin-right: 0;
+}
+.properties-ul.grid > li .img {
+	height: 128px; 
+	overflow: hidden;
+}
+.properties-ul.grid > li .img img {
+	width: 170px;
+}
+.properties-ul.grid > li .info {
+	margin: 10px;
+}
+.addr {
+	color: #999;
+}
+
